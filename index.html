@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chế độ Dinh dưỡng cho Sản Phụ Đái Tháo Đường Thai Kỳ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chế độ Dinh dưỡng cho Sản Phụ Đái Tháo Đường Thai Kỳ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#personal-info">Thông Tin Cá Nhân</a></li>
+                <li><a href="#caloric-needs">Nhu Cầu Năng Lượng</a></li>
+                <li><a href="#food-info">Năng Lượng Thực Phẩm</a></li>
+                <li><a href="#meal-plan">Thực Đơn Mẫu</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Chào mừng đến với trang web của chúng tôi</h2>
+        <p>Trang web này cung cấp thông tin chi tiết về chế độ dinh dưỡng và thực đơn mẫu cho sản phụ đái tháo đường thai kỳ.</p>
+    </section>
+
+    <section id="personal-info">
+        <h2>Thông Tin Cá Nhân</h2>
+        <form>
+            <label for="weight">Cân nặng (kg):</label>
+            <input type="number" id="weight" name="weight" required><br>
+            
+            <label for="height">Chiều cao (cm):</label>
+            <input type="number" id="height" name="height" required><br>
+            
+            <label for="gestation-age">Tuổi thai (tuần):</label>
+            <input type="number" id="gestation-age" name="gestation-age" required><br>
+            
+            <label for="activity-level">Chế độ sinh hoạt:</label>
+            <select id="activity-level" name="activity-level">
+                <option value="low">Ít hoạt động</option>
+                <option value="moderate">Hoạt động vừa phải</option>
+                <option value="high">Hoạt động nhiều</option>
+            </select><br>
+            
+            <button type="submit">Tính toán nhu cầu năng lượng</button>
+        </form>
+    </section>
+
+    <section id="caloric-needs">
+        <h2>Nhu Cầu Năng Lượng</h2>
+        <p>Thông tin về nhu cầu năng lượng của bạn sẽ được hiển thị ở đây sau khi bạn nhập thông tin cá nhân.</p>
+    </section>
+
+    <section id="food-info">
+        <h2>Năng Lượng Thực Phẩm</h2>
+        <p>Dưới đây là bảng năng lượng của các loại thực phẩm:</p>
+        <table>
+            <tr>
+                <th>Thực phẩm</th>
+                <th>Lượng năng lượng (kcal)</th>
+            </tr>
+            <tr>
+                <td>Gạo lứt (1 chén)</td>
+                <td>218 kcal</td>
+            </tr>
+            <tr>
+                <td>Cá hồi (100g)</td>
+                <td>206 kcal</td>
+            </tr>
+            <!-- Thêm các dòng khác theo nhu cầu -->
+        </table>
+    </section>
+
+    <section id="meal-plan">
+        <h2>Thực Đơn Mẫu Cho Một Tuần</h2>
+        <p>Dưới đây là thực đơn mẫu cho một tuần:</p>
+        <!-- Thực đơn mẫu theo từng ngày -->
+        <article>
+            <h3>Ngày 1</h3>
+            <ul>
+                <li>Bữa sáng: Yến mạch nấu với sữa tách béo, 1 quả trứng luộc, 1 quả táo nhỏ.</li>
+                <li>Bữa trưa: 100g ức gà nướng, 1 chén rau xanh, 1 chén gạo lứt.</li>
+                <li>Bữa tối: 100g cá hồi nướng, 1/2 củ khoai lang, 1 chén salad.</li>
+                <li>Bữa phụ: Sữa chua không đường với hạt chia, 1 nắm hạt hạnh nhân.</li>
+            </ul>
+        </article>
+        <!-- Thêm các ngày khác -->
+    </section>
+
+    <section id="contact">
+        <h2>Liên Hệ</h2>
+        <p>Vui lòng liên hệ với chúng tôi qua email: example@example.com hoặc số điện thoại: 0123456789.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chế độ Dinh dưỡng cho Sản Phụ Đái Tháo Đường Thai Kỳ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
